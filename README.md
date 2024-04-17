@@ -1,40 +1,54 @@
+
+# Chat-App
+
+Chat App is a full-stack Chatting App.
+Uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database.
+## Tech Stack
+
+**Client:** React JS
+
+**Server:** Node JS, Express JS
+
+**Database:** Mongo DB
+  
+
 ## Run Locally
 
-To get a local copy up and running follow these simple steps.
-
-### Clone the project
+Clone the project
 
 ```bash
-git clone https://github.com/nyaupane-netra/chat-app
+  git clone https://github.com/nyaupane-netra/chat-app.git
 ```
 
-### Go to the project directory
+Go to the project directory
+
 ```bash
-  cd mern-chat-app
+  cd chat-app
 ```
 
-### Install dependencies
+Install dependencies
 
-'''bash
+```bash
   npm install
-'''
+```
 
-'''bash
+```bash
+  cd frontend/
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+Start the Client
+
+```bash
+  //open new terminal
   cd frontend
-  npm install
-'''
-
-### Start the server
-'''bash
-npm run start
-'''
-
-### Start the Client
-
-'''bash
-//open a new terminal
-cd frontend
-npm start
-'''
+  npm start
+```
 
 
+  
