@@ -8,13 +8,13 @@ const UserListItem = ({user, handleFunction }) => {
     <Box
       onClick={handleFunction}
       cursor="pointer"
-      bg="#E8E8E8"
+      bg={"#E8E8E8"}
       _hover={{
         background: "#38B2AC",
         color: "white",
       }}
       w="100%"
-      d="flex"
+      display={'flex'}
       alignItems="center"
       color="black"
       px={3}
@@ -31,7 +31,7 @@ const UserListItem = ({user, handleFunction }) => {
       />
       <Box>
         <Text>{user.name}</Text>
-        <Text fontSize="xs">
+        <Text fontSize="xs" display={"flex"}>
           <b>Email : </b>
           {user.email}
         </Text>
